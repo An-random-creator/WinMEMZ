@@ -18,7 +18,7 @@ HFILES = $(shell find Source -name '*.h' -type f)
 DATA = $(wildcard Data/*)
 
 
-all: dir $(BUILDDIR)/MEMZ-Clean.bat $(BUILDDIR)/MEMZ-Destructive.bat
+all: dir $(BUILDDIR)/MEMZ-Clean.bat $(BUILDDIR)/WinMEMZ-Destructive.bat
 
 dir: $(BUILDDIR)
 
@@ -35,19 +35,19 @@ $(BUILDDIR)/MEMZ-Clean.exe: $(CFILES) $(HFILES) $(BUILDDIR)/Data.c $(BUILDDIR)/D
 $(BUILDDIR)/MEMZ-Clean.bat: $(BUILDDIR)/MEMZ-Clean.exe Source/exe2bat.py
 	$(PYTHON) Source/exe2bat.py $(BUILDDIR)/MEMZ-Clean.exe $@ MEMZ-Clean.exe -zip
 
-$(BUILDDIR)/MEMZ-Destructive.exe: $(CFILES) $(HFILES) $(BUILDDIR)/Data.c $(BUILDDIR)/Data.h
+$(BUILDDIR)/WinMEMZ-Destructive.exe: $(CFILES) $(HFILES) $(BUILDDIR)/Data.c $(BUILDDIR)/Data.h
 	echo "#define DESTRUCTIVE" > $(BUILDDIR)/Mode.h
 	$(CC) $(CCFLAGS) $(CFILES) $(BUILDDIR)/Data.c $(LIBS) -o $@
 	
-$(BUILDDIR)/MEMZ-Destructive.bat: $(BUILDDIR)/MEMZ-Destructive.exe Source/exe2bat.py
-	$(PYTHON) Source/exe2bat.py $(BUILDDIR)/MEMZ-Destructive.exe $@ MEMZ-Destructive.exe -zip
+$(BUILDDIR)/WinMEMZ-Destructive.bat: $(BUILDDIR)/WinMEMZ-Destructive.exe Source/exe2bat.py
+	$(PYTHON) Source/exe2bat.py $(BUILDDIR)/WinMEMZ-Destructive.exe $@ MEMZ-Destructive.exe -zip
 	
 clean:
 	rm -r $(BUILDDIR)
 
 clean-exe: dir $(BUILDDIR)/MEMZ-Clean.exe
 clean-bat: dir $(BUILDDIR)/MEMZ-Clean.bat
-destructive-exe: dir $(BUILDDIR)/MEMZ-Destructive.exe
-destructive-bat: dir $(BUILDDIR)/MEMZ-Destructive.bat
+destructive-exe: dir $(BUILDDIR)/WinMEMZ-Destructive.exe
+destructive-bat: dir $(BUILDDIR)/WinMEMZ-Destructive.bat
 
 .PHONY: clean all dir clean-exe clean-bat destructive-exe destructive-bat
