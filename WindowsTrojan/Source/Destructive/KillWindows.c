@@ -63,7 +63,7 @@ void killWindows() {
 
 DWORD WINAPI ripMessageThread(LPVOID parameter) {
 	HHOOK hook = SetWindowsHookEx(WH_CBT, msgBoxHook, 0, GetCurrentThreadId());
-	MessageBoxA(NULL, (LPCSTR)KillMessages[random() % KillMessagesLen], "MEMZ", MB_OK | MB_SYSTEMMODAL | MB_ICONHAND);
+	MessageBoxA(NULL, (LPCSTR)KillMessages[random() % KillMessagesLen], "WinMEMZ", MB_OK | MB_SYSTEMMODAL | MB_ICONHAND);
 	UnhookWindowsHookEx(hook);
 
 	return 0;
