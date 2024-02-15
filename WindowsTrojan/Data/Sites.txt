@@ -309,6 +309,7 @@ calc
 notepad
 cmd
 tourstart
+hdwwiz
 charmap
 narrator
 wmplayer
