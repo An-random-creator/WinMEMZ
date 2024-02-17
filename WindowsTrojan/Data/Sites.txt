@@ -318,6 +318,7 @@ winver
 winmine
 spider
 mshearts
+sndvol
 solitaire
 certmgr.msc
 write
