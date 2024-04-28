@@ -279,7 +279,9 @@ http://google.co.ck/search?q=It%27s+magic+Joel%2C+it%27s+magic%21
 http://google.co.ck/search?q=lolman+the+object+thingy&tbm=isch
 http://google.co.ck/search?q=microsoft+sam+is+actually+microsoft
 http://google.co.ck/search?q=anime
+http://google.co.ck/search?q=color+red&tbm=isch
 http://google.co.ck/search?q=how+to+delete+cortana
+http://google.co.ck/search?q=budsforbuddies+loafal&tbm=isch
 http://google.co.ck/search?q=roll+ups
 http://google.co.ck/search?q=is+diskpart+a+virus
 http://google.co.ck/search?q=sad+cena
@@ -341,6 +343,7 @@ http://tenforums.com/antivirus-firewalls-system-security/104550-how-remove-en-so
 http://twitter.com/
 http://roblox.com/
 http://smlwiki.com/
+http://ask.com/
 http://avast.com/
 http://scratch.mit.edu/search/projects?q=MEMZ
 http://bing.com/
@@ -376,6 +379,7 @@ http://youtube.com/watch?v=MsiPXtL45C4&list=PLSAgeNChTZudV40M_GTiuhKbo6thpGXor&i
 http://youtube.com/watch?v=Qf18UNFu4ZI
 http://youtube.com/watch?v=y8Zf4zc6HIc&list=PLSAgeNChTZudV40M_GTiuhKbo6thpGXor&index=48&pp=gAQBiAQB
 http://youtube.com/watch?v=-cpmGhBQmHk
+http://youtube.com/watch?v=qQMsLAIqtmU&pp=ygUebm8gbW9yZSBzYXlpbmcgY3VzcyB3b3JkcyBndXlz
 http://youtube.com/watch?v=9Lu99J5UsXs
 http://youtube.com/watch?v=ySwrezNHhkA&list=PLSAgeNChTZudV40M_GTiuhKbo6thpGXor&index=326&pp=gAQBiAQB
 http://youtube.com/watch?v=a8hsTEvHha8
@@ -390,6 +394,7 @@ http://youtube.com/watch?v=cZsAVdkEPfo
 http://youtube.com/watch?v=qZzQ8S4Oc8o&list=PLSAgeNChTZudV40M_GTiuhKbo6thpGXor&index=335&pp=gAQBiAQB
 http://youtube.com/watch?v=YzNhHguJBWw
 http://youtube.com/watch?v=nmPq3f1iR90
+http://youtube.com/watch?v=Lh1f1fDRMpA
 http://youtube.com/watch?v=9J4w9nzPIFs
 http://youtube.com/watch?v=zZRBzLiJA2c&list=PLSAgeNChTZudV40M_GTiuhKbo6thpGXor&index=333&pp=gAQBiAQB
 http://youtube.com/watch?v=_GdZc17t-zk
