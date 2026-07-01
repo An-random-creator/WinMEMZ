@@ -1,8 +1,8 @@
 # Update 2026
-This was made like a while ago and since I have literally no coding experience this will most likely never be made (unless I learn how to do shit)
+This was made like a while ago and because of that most of the stuff in Site.txt are so fucking stupid and dumb
 
+Because I have literally no coding experience this will most likely never be made (unless I learn how to do shit)
 And if that happens (prob never lol), I'll most likely make like a better version of this. yea
-
 
 # MEMZ
 LOL
